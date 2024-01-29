@@ -1,4 +1,44 @@
+# Ignore .env file
 .env
+
+# Ignore Node.js modules
 node_modules/
+
+# Ignore Next.js build artifacts
 .next/
+
+# Ignore TypeScript build artifacts
 .lib/
+
+# Ignore other build artifacts
+.next/cache/
+.next/server/
+.next/static/
+
+# Ignore specific files
+.next/app-build-manifest.json
+.next/build-manifest.json
+.next/fallback-build-manifest.json
+.next/react-loadable-manifest.json
+.next/server/app-paths-manifest.json
+.next/server/middleware-build-manifest.js
+.next/server/middleware-manifest.json
+.next/server/middleware-react-loadable-manifest.js
+.next/server/next-font-manifest.js
+.next/server/next-font-manifest.json
+.next/server/pages-manifest.json
+.next/server/pages/_app.js
+.next/server/pages/_document.js
+.next/server/server-reference-manifest.js
+.next/server/server-reference-manifest.json
+.next/server/vendor-chunks/
+.next/static/
+.next/types/
+.next/trace/
+
+# Ignore TypeScript definition file
+next-env.d.ts
+
+# Ignore build tools
+package-lock.json
+
