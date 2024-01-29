@@ -1,21 +1,16 @@
-# Ignore .env file
 .env
+git-filter-repo
 
-# Ignore Node.js modules
 node_modules/
 
-# Ignore Next.js build artifacts
 .next/
 
-# Ignore TypeScript build artifacts
 .lib/
 
-# Ignore other build artifacts
 .next/cache/
 .next/server/
 .next/static/
 
-# Ignore specific files
 .next/app-build-manifest.json
 .next/build-manifest.json
 .next/fallback-build-manifest.json
@@ -36,9 +31,7 @@ node_modules/
 .next/types/
 .next/trace/
 
-# Ignore TypeScript definition file
 next-env.d.ts
 
-# Ignore build tools
 package-lock.json
 
